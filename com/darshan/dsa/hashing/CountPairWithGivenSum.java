@@ -7,6 +7,8 @@ import java.util.Map;
  * Given an array of integers, and a number ‘sum’,
  * find the number of pairs of integers in the array whose sum is equal to ‘sum’.
  */
+// Sum =A+B
+// A = Sum-B;
 public class CountPairWithGivenSum {
 
     public static void countAndPrintGivenSumPair(int[] arr, int givenSum) {
