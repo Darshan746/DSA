@@ -4,14 +4,10 @@ import java.util.*;
 
 public class SortArrayByFrequencyOfElements {
 
-
     public static void main(String[] args) {
-
         int[] arr = {1, 1, 3, 2, 2, 2, 3, 4};
         sortArrayByFrequency(arr);
-
     }
-
 
     private static void sortArrayByFrequency(int[] arr) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -28,9 +24,7 @@ public class SortArrayByFrequencyOfElements {
         intList.sort(sortedComparator);
         intList.forEach(a -> System.out.print(a));
     }
-
 }
-
 
 class SortedComparator implements Comparator<Integer> {
     Map<Integer, Integer> map;

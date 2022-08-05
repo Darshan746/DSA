@@ -12,7 +12,7 @@ import java.util.Map;
 public class CountPairWithGivenSum {
 
     public static void countAndPrintGivenSumPair(int[] arr, int givenSum) {
-        Map<Integer, Integer> map = new HashMap<>();
+        final Map<Integer, Integer> map = new HashMap<>();
         int pairCount = 0;
 
         for (int i = 0; i < arr.length; i++) {
@@ -31,7 +31,7 @@ public class CountPairWithGivenSum {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3, 4, 5};
+        int[] arr = {1, 2, 2, 3, 4, 5};
         countAndPrintGivenSumPair(arr, 7);
     }
 }

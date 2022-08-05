@@ -14,9 +14,9 @@ public class FindClosestNoInArray {
     private static void findClosestElement(int[] arr, int targetElement) {
 
         int closestElement = arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            if (Math.abs(targetElement - closestElement) > Math.abs(targetElement - arr[i])) {
-                closestElement = arr[i];
+        for (int j : arr) {
+            if (Math.abs(targetElement - closestElement) > Math.abs(targetElement - j)) {
+                closestElement = j;
             }
         }
         System.out.println("closest element for  target elem " + targetElement + " " + " " + "is" + " " + closestElement);

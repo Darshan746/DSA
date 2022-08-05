@@ -19,7 +19,6 @@ public class SubArrayWithGivenSum {
                 current_sum -= arr[start];
                 start++;
             }
-
         }
     }
 
@@ -29,7 +28,6 @@ public class SubArrayWithGivenSum {
         }
         System.out.println();
     }
-
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 1, 5, 6};
