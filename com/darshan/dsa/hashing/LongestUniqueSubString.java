@@ -1,4 +1,4 @@
-package com.darshan.dsa.string;
+package com.darshan.dsa.hashing;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
