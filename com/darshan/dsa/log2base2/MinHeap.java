@@ -15,7 +15,7 @@ public class MinHeap {
 
         int min = index;
 
-        if (left <= size && arr[left] < arr[min]) {
+        if (left <= size && arr[left] < arr[index]) {
             min = left;
         }
         if (right <= size && arr[right] < arr[min]) {
